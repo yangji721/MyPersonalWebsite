@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "JI Yang (吉楊)"
+  name             : "JI Yang (吉杨)"
   avatar           : "profile.png"
-  bio              : "Mia San Mia"
-  location         : "HongKong, China"
+  bio              : "Research Assistant in AI Thrust, HKUST(GZ)"
+  location         : "Guangzhou, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=TOcunyAAAAAJ&hl=en&oi=sra"
   email            : "yangji.me721@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -227,23 +227,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
@@ -265,6 +248,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-livereload
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
